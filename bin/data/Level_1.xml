@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<LevelInfo asteroidcount = "0" asteroidmax = "25" size = "1500" scoreneeded = "30" asteroidsbounce = "false">
+    <CheckPoint x="-400" y="300" /> 
+    <CheckPoint x="-100" y="400">
+    </CheckPoint>
+    <CheckPoint x="200" y="400">
+    </CheckPoint>
+    <Pickup x = "200" y = "100"/>
+    <CheckPoint x="200" y="-250">
+    </CheckPoint>
+    <CheckPoint x="400" y="-50">
+    </CheckPoint>
+    <CheckPoint x="0" y="-50">
+    </CheckPoint>
+    
+    <AsteroidGenerator x="-500" y = "-200" direction = "0" cooldown = "15">
+    </AsteroidGenerator>
+    <AsteroidGenerator x ="-500" y = "-200" direction = "20" cooldown = "25">
+    </AsteroidGenerator>
+    <AsteroidGenerator x = "-500" y = "-200" direction = "30" cooldown = "12">
+    </AsteroidGenerator>
+    <AsteroidGenerator x = "-500" y = "-200" direction = "40" cooldown = "17">
+    </AsteroidGenerator>
+ </LevelInfo>

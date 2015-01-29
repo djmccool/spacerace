@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<LevelInfo asteroidcount = "0" asteroidmax = "22" size = "1800" scoreneeded = "16" asteroidsbounce = "false" pickups = "10">
+    <CheckPoint x = "-300" y = "-300" />
+    <CheckPoint x = "-300" y = "300" />
+    <CheckPoint x = "300" y = "300" />
+    <CheckPoint x = "300" y = "-300" />
+    
+    <AsteroidGenerator x = "-500" y = "-500" direction = "center" cooldown = "100"/>
+    <AsteroidGenerator x = "-400" y = "-500" direction = "center" cooldown = "100"/>
+    <AsteroidGenerator x = "-300" y = "-500" direction = "center" cooldown = "100"/>
+    <AsteroidGenerator x = "-200" y = "-500" direction = "center" cooldown = "100"/>
+    <AsteroidGenerator x = "-100" y = "-500" direction = "center" cooldown = "100"/>
+    <AsteroidGenerator x = "0" y = "-500" direction = "center"  cooldown = "100"/>
+    <AsteroidGenerator x = "100" y = "-500" direction = "center"  cooldown = "100"/>
+    <AsteroidGenerator x = "200" y = "-500" direction = "center"  cooldown = "100"/>
+    <AsteroidGenerator x = "300" y = "-500" direction = "center"  cooldown = "100"/>
+    <AsteroidGenerator x = "400" y = "-500" direction = "center"  cooldown = "100"/>
+    <AsteroidGenerator x = "500" y = "-500" direction = "center"  cooldown = "100"/>
+    
+    <AsteroidGenerator x = "-500" y = "500" direction = "center"  cooldown = "100"/>
+    <AsteroidGenerator x = "-400" y = "500" direction = "center"  cooldown = "100"/>
+    <AsteroidGenerator x = "-300" y = "500" direction = "center"  cooldown = "100"/>
+    <AsteroidGenerator x = "-200" y = "500" direction = "center"  cooldown = "100"/>
+    <AsteroidGenerator x = "-100" y = "500" direction = "center"  cooldown = "100"/>
+    <AsteroidGenerator x = "0" y = "500" direction = "center"  cooldown = "100"/>
+    <AsteroidGenerator x = "100" y = "500" direction = "center"  cooldown = "100"/>
+    <AsteroidGenerator x = "200" y = "500" direction = "center"  cooldown = "100"/>
+    <AsteroidGenerator x = "300" y = "500" direction = "center"  cooldown = "100"/>
+    <AsteroidGenerator x = "400" y = "500" direction = "center"  cooldown = "100"/>
+    <AsteroidGenerator x = "500" y = "500" direction = "center" cooldown = "100" />
+</LevelInfo>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<LevelInfo type = "race" asteroidcount = "0" asteroidmax = "30" size = "2000">
+    <CheckPoint x="0" y="0">
+    </CheckPoint>
+    <CheckPoint x="500" y="500">
+    </CheckPoint>
+    <CheckPoint x="0" y="-600">
+    </CheckPoint>
+    
+    <AsteroidGenerator x = "0" y = "top" direction = "center">
+    </AsteroidGenerator>
+    <AsteroidGenerator x = "right" y = "0" direction = "center">
+    </AsteroidGenerator>
+    
+    <Pickup x = "301" y = "300" />
+</LevelInfo>

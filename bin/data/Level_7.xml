@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<LevelInfo asteroidcount = "0" asteroidmax = "20" size = "2500" scoreneeded = "10" asteroidsbounce = "false" pickups = "-1">
+    <CheckPoint x = "-300" y = "-300" />
+    <CheckPoint x = "-300" y = "300" />
+    <CheckPoint x = "300" y = "300" />
+    <CheckPoint x = "300" y = "-300" />
+    
+    <AsteroidGenerator x = "-500" y = "-400" direction = "0" />
+    <AsteroidGenerator x = "500" y = "400" direction = "180" />
+    
+    <PickUp x = "-400" y = "0" pointsneeded = "2" pickups = "1" weapontype = "emp" triggertype = "top"/>
+    <PickUp x = "0" y = "400" pointsneeded = "2" pickups = "1" weapontype = "emp" triggertype = "total"/>
+    <PickUp x = "400" y = "0" pointsneeded = "2" pickups = "1" weapontype = "emp" triggertype = "top"/>
+    <PickUp x = "0" y = "-400" pointsneeded = "2" pickups = "1" weapontype = "emp" triggertype = "total"/>
+</LevelInfo>
